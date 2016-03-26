@@ -1,1 +1,138 @@
+body {
+  width: 100%;
+}
+h1 {
+  margin: 0 auto;
+  padding: 5%;
+  text-align: center;
+}
 
+
+@media screen and (max-width:767px) {
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0;
+  margin-bottom: 4px;
+  padding: 2px;
+  position: relative;
+  float: right;
+}
+p {
+  font-size: 70%;
+  text-align: left;
+  padding: 0 5px;
+  clear: both;
+}
+#one, #two, #three {
+  background-color: #C78E8E;
+  width: 110px;
+}
+#two {
+  background-color: #C14543;
+  color: #ffffff;
+}
+#three {
+  background-color: #E5D198;
+}
+div {
+  display: block;
+  border: 1px solid black;
+  background-color: grey;
+  width: auto;
+  height: 150px;
+  float: left;
+  margin: 2% 10%;
+  overflow: auto;
+}
+
+}
+
+/********** Tablet **********/
+@media screen and (min-width: 768px){
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0;
+  margin-bottom: 4px;
+  padding: 2px;
+  position: relative;
+  float: right;
+}
+p {
+  font-size: 70%;
+  text-align: left;
+  padding: 0 5px;
+  clear: both;
+}
+#one, #two, #three {
+  background-color: #C78E8E;
+  width: 110px;
+}
+#two {
+  background-color: #C14543;
+  color: #ffffff;
+}
+#three {
+  background-color: #E5D198;
+}
+div {
+ 
+  border: 1px solid black;
+  background-color: grey;
+  width: 47%;
+  height: 150px;
+  float: left;
+  margin: 1%;
+  overflow: auto;
+}
+#d3 {
+  display: block;
+  width: 96%;
+  clear: both;
+}
+}
+/********** Desktop **********/
+@media screen and (min-width: 992px) {
+h2 {
+  text-align: center;
+  border: 1px solid black;
+  margin-top: 0;
+  margin-bottom: 4px;
+  padding: 2px;
+  position: relative;
+  float: right;
+}
+p {
+  font-size: 70%;
+  text-align: left;
+  padding: 0 5px;
+  clear: both;
+}
+#one, #two, #three {
+  background-color: #C78E8E;
+  width: 110px;
+}
+#two {
+  background-color: #C14543;
+  color: #ffffff;
+}
+#three {
+  background-color: #E5D198;
+}
+div {
+  display: inline;
+  border: 1px solid black;
+  background-color: grey;
+  width: 30%;
+  height: 150px;
+  float: left;
+  margin: 1%;
+  overflow: auto;
+}
+#d3 {
+  display: inline;
+  width: 30%;
+  clear: right;
+}
+}
